@@ -21,7 +21,7 @@ jobs:
       uses: al-cheb/configure-pagefile-action@v1.4
       if: matrix.os == 'windows'
       with:
-        maximum-size: 12GB
+        maximum-size: 20GB
     - uses: actions/checkout@v4
     - name: Setup Haskell
       uses: haskell-actions/setup@latest
