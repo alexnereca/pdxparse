@@ -1,5 +1,7 @@
 name: Haskell Release
 on: workflow_dispatch
+env:
+  GAME: hoi4
 
 permissions:
   contents: read
