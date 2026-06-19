@@ -1,8 +1,5 @@
 name: Haskell Release
-on:
-  push:
-    tags:
-      - "v*.*.*"
+on: workflow_dispatch
 
 permissions:
   contents: read
