@@ -24,7 +24,7 @@ jobs:
         maximum-size: 12GB
     - uses: actions/checkout@v4
     - name: Setup Haskell
-      uses: haskell/actions/setup@v2
+      uses: haskell-actions/setup@latest
       id: setup
       with:
         ghc-version: '8.10.7'
