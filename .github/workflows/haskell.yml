@@ -1,13 +1,12 @@
 name: Haskell Release
 on: workflow_dispatch
-env:
-  GAME: hoi4
 
 permissions:
   contents: read
 
 jobs:
   build:
+    environment: Hearts of Iron IV
     strategy:
       matrix:
         os:
